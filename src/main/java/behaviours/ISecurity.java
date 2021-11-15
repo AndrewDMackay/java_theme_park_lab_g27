@@ -5,5 +5,5 @@ import people.Visitor;
 
 public interface ISecurity {
 
-    public boolean isAllowedTo(Visitor);
+    public boolean isAllowedTo(Visitor data);
 }

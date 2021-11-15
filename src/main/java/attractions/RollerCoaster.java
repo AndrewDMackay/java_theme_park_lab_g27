@@ -4,6 +4,7 @@ package attractions;
 import behaviours.IReviewed;
 import behaviours.ISecurity;
 import behaviours.ITicketed;
+import people.Visitor;
 
 public class RollerCoaster  extends Attraction implements ISecurity, ITicketed, IReviewed {
 
@@ -12,7 +13,7 @@ public class RollerCoaster  extends Attraction implements ISecurity, ITicketed, 
     }
 
     @Override
-    public boolean isAllowedTo() {
+    public boolean isAllowedTo(Visitor data) {
         return false;
     }
 
@@ -22,7 +23,7 @@ public class RollerCoaster  extends Attraction implements ISecurity, ITicketed, 
     }
 
     @Override
-    public double priceFor() {
+    public double priceFor(Visitor data) {
         return 0;
     }
 

@@ -12,8 +12,9 @@ public class Playground extends Attraction implements ISecurity, IReviewed {
         super(name, rating);
     }
 
-    @Override
-    public boolean isAllowedTo() {
+    Visitor visitor;
+
+    public boolean isAllowedTo(Visitor data) {
         return false;
     }
 

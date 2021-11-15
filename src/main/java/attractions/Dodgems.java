@@ -3,6 +3,7 @@ package attractions;
 
 import behaviours.IReviewed;
 import behaviours.ITicketed;
+import people.Visitor;
 
 public class Dodgems extends Attraction implements ITicketed, IReviewed {
 
@@ -16,7 +17,7 @@ public class Dodgems extends Attraction implements ITicketed, IReviewed {
     }
 
     @Override
-    public double priceFor() {
+    public double priceFor(Visitor data) {
         return 0;
     }
 
