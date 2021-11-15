@@ -1,9 +1,21 @@
 
 package attractions;
 
-public class Park extends Attraction {
+import behaviours.IReviewed;
+
+public class Park extends Attraction implements IReviewed {
 
     public Park(String name, int rating) {
         super(name, rating);
+    }
+
+    @Override
+    public int getRating() {
+        return 0;
+    }
+
+    @Override
+    public String getName() {
+        return null;
     }
 }
