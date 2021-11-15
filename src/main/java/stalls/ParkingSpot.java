@@ -1,3 +1,4 @@
+
 package stalls;
 
 public enum ParkingSpot {

@@ -1,3 +1,4 @@
+
 package stalls;
 
 public class CandyflossStall extends Stall {

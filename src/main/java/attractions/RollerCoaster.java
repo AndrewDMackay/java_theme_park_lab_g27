@@ -1,3 +1,4 @@
+
 package attractions;
 
 public class RollerCoaster  extends Attraction {

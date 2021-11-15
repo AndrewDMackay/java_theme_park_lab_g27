@@ -1,3 +1,4 @@
+
 package attractions;
 
 public class Park extends Attraction {
